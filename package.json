@@ -1,1 +1,1 @@
-{ "name": "church-ecosystem", "private": true }
+{"name":"church-ecosystem","private":true,"devDependencies":{"@types/node":"^24.9.1","turbo":"^2.5.8","typescript":"^5.9.3"}}
