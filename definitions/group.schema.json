@@ -1,0 +1,54 @@
+﻿# Church Ecosystem 🌟
+
+A decentralized, AI-powered micro-church community network built on modern Web3 stack.
+
+## 🎯 Vision
+Creating an organic ecosystem where every faith group can own their digital home, connected in a decentralized network.
+
+## 🏗️ Architecture
+- **Frontend**: Next.js/Astro + TypeScript + Tailwind CSS
+- **Blockchain**: Solidity + Ethereum/Polygon  
+- **Storage**: IPFS + Ceramic Network
+- **AI**: OpenAI + LangChain + Whisper
+- **Real-time**: Huddle01 + LiveKit
+- **Infrastructure**: Docker + GitHub Actions
+
+## 🚀 Quick Start
+```bash
+npm install
+npm run devchurch-ecosystem/
+├── frontend/          # Main portal & group templates
+├── protocol/          # Smart contracts & subgraph
+├── services/          # AI agent & sync workers  
+├── definitions/       # Content schemas & templates
+├── infra/            # Infrastructure as Code
+└── docs/             # Documentation
+
+**2. 创建基础定义文件**
+```powershell
+# 创建小组定义schema
+@'
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MicroChurch Group",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of the faith group"
+    },
+    "mission": {
+      "type": "string", 
+      "description": "Group'\''s mission statement"
+    },
+    "denomination": {
+      "type": "string",
+      "enum": ["non-denominational", "baptist", "methodist", "pentecostal", "catholic", "orthodox", "other"]
+    },
+    "meetingFrequency": {
+      "type": "string",
+      "enum": ["weekly", "bi-weekly", "monthly"]
+    }
+  },
+  "required": ["name", "mission"]
+}

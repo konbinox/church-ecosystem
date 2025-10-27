@@ -1,0 +1,8 @@
+﻿{
+  "name": "@church-ecosystem/contracts",
+  "version": "0.1.0", 
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test"
+  }
+}
